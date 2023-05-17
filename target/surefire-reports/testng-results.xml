@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-17T18:12:58 EET" name="Surefire suite" finished-at="2023-05-17T18:13:54 EET" duration-ms="55638">
+    <groups>
+    </groups>
+    <test started-at="2023-05-17T18:12:58 EET" name="Surefire test" finished-at="2023-05-17T18:13:54 EET" duration-ms="55638">
+      <class name="com.qacart.todo.testcases.UserTest">
+        <test-method signature="shouldNotBeAbleToRegisterWithTheSameEmail()[pri:0, instance:com.qacart.todo.testcases.UserTest@3d299e3]" started-at="2023-05-17T18:12:59 EET" name="shouldNotBeAbleToRegisterWithTheSameEmail" finished-at="2023-05-17T18:13:43 EET" duration-ms="44182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeAbleToRegisterWithTheSameEmail -->
+        <test-method signature="shouldNotBeAbleToLogin()[pri:0, instance:com.qacart.todo.testcases.UserTest@3d299e3]" started-at="2023-05-17T18:12:59 EET" name="shouldNotBeAbleToLogin" finished-at="2023-05-17T18:13:43 EET" duration-ms="44481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeAbleToLogin -->
+        <test-method signature="shouldBeAbleToLogin()[pri:0, instance:com.qacart.todo.testcases.UserTest@3d299e3]" started-at="2023-05-17T18:12:59 EET" name="shouldBeAbleToLogin" finished-at="2023-05-17T18:13:47 EET" duration-ms="47950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToLogin -->
+        <test-method signature="shouldBeAbleToRegister()[pri:0, instance:com.qacart.todo.testcases.UserTest@3d299e3]" started-at="2023-05-17T18:12:59 EET" name="shouldBeAbleToRegister" finished-at="2023-05-17T18:13:43 EET" duration-ms="43635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToRegister -->
+      </class> <!-- com.qacart.todo.testcases.UserTest -->
+      <class name="com.qacart.todo.testcases.TodoTest">
+        <test-method signature="shouldNotBeAddTask()[pri:0, instance:com.qacart.todo.testcases.TodoTest@358c99f5]" started-at="2023-05-17T18:12:59 EET" name="shouldNotBeAddTask" finished-at="2023-05-17T18:13:52 EET" duration-ms="53021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeAddTask -->
+        <test-method signature="shouldBeAddTask()[pri:0, instance:com.qacart.todo.testcases.TodoTest@358c99f5]" started-at="2023-05-17T18:12:59 EET" name="shouldBeAddTask" finished-at="2023-05-17T18:13:53 EET" duration-ms="54364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAddTask -->
+        <test-method signature="shouldBeGetTaskByID()[pri:0, instance:com.qacart.todo.testcases.TodoTest@358c99f5]" started-at="2023-05-17T18:12:59 EET" name="shouldBeGetTaskByID" finished-at="2023-05-17T18:13:54 EET" duration-ms="55093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeGetTaskByID -->
+        <test-method signature="shouldBeDeleteTaskByID()[pri:0, instance:com.qacart.todo.testcases.TodoTest@358c99f5]" started-at="2023-05-17T18:12:59 EET" name="shouldBeDeleteTaskByID" finished-at="2023-05-17T18:13:54 EET" duration-ms="54903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDeleteTaskByID -->
+      </class> <!-- com.qacart.todo.testcases.TodoTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
